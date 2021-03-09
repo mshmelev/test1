@@ -26,6 +26,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: trying to fail...
-        run:
+        run: |
+          echo dumb excuse
           exit 1
           
